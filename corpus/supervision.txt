@@ -1,0 +1,5 @@
+Supervision du lab Aster
+
+Le tableau de bord principal s'appelle Vigie Aster. L'alerte disque se déclenche lorsque l'utilisation dépasse 87 % pendant dix minutes.
+
+L'équipe consulte le graphique de croissance du volume puis confirme la capacité disponible sur le nœud.

@@ -1,0 +1,3 @@
+Journaux du lab Aster
+
+Les journaux applicatifs de test sont conservés 14 jours sur le service Journal-Aster. L'équipe recherche par identifiant de requête et corrèle les horodatages depuis le tableau de bord de journaux.

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "backup-window",
+    "question": "Quel jour et à quelle heure se fait la sauvegarde complète du lab Aster ?",
+    "source": "sauvegarde.md",
+    "expected_groups": [["samedi"], ["03 h 40", "3 h 40", "03h40", "3h40", "03:40", "3:40"]]
+  },
+  {
+    "id": "backup-retention",
+    "question": "Combien de jours conserve-t-on les copies de sauvegarde ?",
+    "source": "sauvegarde.md",
+    "expected_groups": [["21", "vingt et un"], ["jour"]]
+  },
+  {
+    "id": "backup-storage",
+    "question": "Quel est le nom du stockage de sauvegarde ?",
+    "source": "sauvegarde.md",
+    "expected_groups": [["coffre-aster"]]
+  },
+  {
+    "id": "monitoring",
+    "question": "Comment s'appelle le tableau de bord principal de supervision ?",
+    "source": "supervision.txt",
+    "expected_groups": [["Vigie Aster"]]
+  },
+  {
+    "id": "disk-alert",
+    "question": "Quel pourcentage d'utilisation du disque déclenche l'alerte et après combien de minutes ?",
+    "source": "supervision.txt",
+    "expected_groups": [["87"], ["dix", "10"], ["minute"]]
+  },
+  {
+    "id": "vlans",
+    "question": "Quel est le numéro du VLAN réservé aux VM de test ?",
+    "source": "reseau.md",
+    "expected_groups": [["273"]]
+  },
+  {
+    "id": "out-of-scope-cloud",
+    "question": "Dans quelle région AWS du lab Aster se trouve son cluster de production ?"
+  },
+  {
+    "id": "out-of-scope-incident",
+    "question": "À quelle date a eu lieu le dernier incident DNS du lab Aster ?"
+  }
+]
